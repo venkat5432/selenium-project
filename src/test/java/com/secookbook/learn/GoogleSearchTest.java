@@ -56,7 +56,7 @@ public class GoogleSearchTest {
 			actualOptions.add(eachElement.getText());
 		}
 		assertArrayEquals(expectedOptions.toArray(),actualOptions.toArray());
-		System.out.println("hi1");
+		System.out.println("hi1&hello");
 		//System.out.println(height+weight+bmi);
 	}
 	
